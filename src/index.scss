@@ -53,9 +53,19 @@ video {
   height: 100%;
   border-right: 3px solid;
   border-image: 
-  linear-gradient(203.45deg, 
+  linear-gradient(229deg, 
   rgba(97, 218, 251, 0) 0%, 
-  #61DAFB 15.99%, #9122FF 23.61%, #000AFF 35.24%, #9022FF 46.86%, #61DAFB 58.12%, rgba(97, 218, 251, 0) 69.75%, 
+  //* 15.99
+  #61DAFB 15.99%, 
+  //* 7.62
+  #9122FF 23.61%, 
+  //* 11.63
+  #000AFF 35.24%, 
+  //* 11.62
+  #9022FF 46.86%, 
+  //* 11.26
+  #61DAFB 58.12%,
+  //* 11.63
   rgba(97, 218, 251, 0) 69.75%) 1;
   // border: 2px solid teal;
 }
