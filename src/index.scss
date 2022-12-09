@@ -1,22 +1,61 @@
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html{
+html {
   color-scheme: dark light;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
-  font: inherit
+  font: inherit;
+  color: rgba(240, 240, 240, 0.9);
 }
 
-body{
-  min-height:100vh
+body {
+  min-height: 100vh;
 }
 
-img, picture, svg, video {
+img,
+picture,
+svg,
+video {
   display: block;
   max-width: 100%;
+}
+
+#root {
+  display: flex;
+  position: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-y: scroll;
+  background: #0b0c32;
+  // background-size: cover;
+  // z-index: -1;
+  backdrop-filter: blur(2px);
+  // border: pink 2px solid;
+}
+
+// .App {
+//   // height: 100%;
+//   width: 100%;
+//   border: orange 2px solid;
+// }
+
+//* --------------------------------- Navbar --------------------------------- */
+
+.nav-parent {
+  width: 18vw;
+  height: 100%;
+  border-right: 3px solid;
+  border-image: 
+  linear-gradient(203.45deg, 
+  rgba(97, 218, 251, 0) 0%, 
+  #61DAFB 15.99%, #9122FF 23.61%, #000AFF 35.24%, #9022FF 46.86%, #61DAFB 58.12%, rgba(97, 218, 251, 0) 69.75%, 
+  rgba(97, 218, 251, 0) 69.75%) 1;
+  // border: 2px solid teal;
 }

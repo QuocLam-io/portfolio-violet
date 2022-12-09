@@ -1,8 +1,9 @@
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <div className="App">
-      <h1>Blub</h1>
+      <Nav />
     </div>
   );
 }
