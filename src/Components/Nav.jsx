@@ -7,6 +7,7 @@ const Nav = () => {
       <div className="nav-top">
         <div className="logo">
           <Merp />
+          <div className="logo-right"></div>
         </div>
         <div className="nav-menu"></div>
       </div>

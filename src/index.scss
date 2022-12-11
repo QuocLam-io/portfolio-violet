@@ -55,7 +55,7 @@ video {
   min-width: 263px;
   width: 18vw;
   height: 100%;
-  padding: 18.26% 6.09% 9.13%  9.13%;
+  padding: 18.26% 6.09% 9.13% 9.13%;
   border-right: 2px solid;
   border-image: linear-gradient(
       180deg,
@@ -72,8 +72,28 @@ video {
 
   .nav-top {
     display: flex;
-  border: $test-border;
+    // border: $test-border;
+
+    .logo {
+      display: flex;
+      width: 100%;
+      border: $test-border;
+
+      //* ---------------------------------- Merp ---------------------------------- */
+
+      .merp-parent {
+        width: 29.11%;
+        aspect-ratio: 1/1;
+        border-radius: 8px;
+        border: orange 2px solid;
+      }
+
+      .logo-right{
+        display: flex;
+        flex-direction: column;
+        width: 70.89%;
+        border: salmon 2px solid;
+      }
+    }
   }
 }
-
-//* ---------------------------------- Merp ---------------------------------- */

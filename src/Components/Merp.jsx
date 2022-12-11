@@ -2,7 +2,7 @@ import React from 'react'
 
 const Merp = () => {
   return (
-    <div>Merp</div>
+    <div className='merp-parent' >Merp</div>
   )
 }
 
