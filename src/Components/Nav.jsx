@@ -11,7 +11,10 @@ const Nav = () => {
         </div>
         <div className="nav-menu"></div>
       </div>
-      <div className="nav-bottom">Hand-coded with love</div>
+      <div className="nav-bottom">
+        <p>Hand-coded with love</p>
+        <img src="imgs/hollow-heart.svg" alt="" srcset="" />
+      </div>
     </div>
   );
 };

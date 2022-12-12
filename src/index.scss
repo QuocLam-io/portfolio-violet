@@ -44,6 +44,7 @@ video {
 
 .App {
   display: flex;
+  font-family: Avenir;
 }
 
 //* --------------------------------- Navbar --------------------------------- */
@@ -108,7 +109,7 @@ video {
             #61dafb,
             rgba(97, 218, 251, 0)
           );
-          animation: rotate 10s linear infinite;
+          // animation: rotate 10s linear infinite;
           @keyframes rotate {
             0% {
               transform: rotate(0deg);
@@ -135,6 +136,15 @@ video {
         width: 70.89%;
         // border: salmon 2px solid;
       }
+    }
+  }
+
+  .nav-bottom{
+    display: flex;
+    gap: 2%;
+
+    img:hover{
+      background: red;
     }
   }
 }
