@@ -97,7 +97,7 @@ video {
         &::before {
           content: "";
           position: absolute;
-          width: clamp(6rem, 7vw, 10rem);
+          width: clamp(8rem, 7vw, 10rem);
           aspect-ratio: 1/1;
           background: linear-gradient(
             rgba(97, 218, 251, 0),
@@ -108,7 +108,7 @@ video {
             #61dafb,
             rgba(97, 218, 251, 0)
           );
-          animation: rotate 15s linear infinite;
+          animation: rotate 10s linear infinite;
           @keyframes rotate {
             0% {
               transform: rotate(0deg);
@@ -118,6 +118,14 @@ video {
             }
           }
         }
+
+        img {
+          width: 92%;
+          height: 92%;
+          border-radius: 8px;
+          background: #0b0c32;
+          z-index: 1;
+        }
       }
       //* -------------------------------------------------------------------------- */
 
@@ -125,7 +133,7 @@ video {
         display: flex;
         flex-direction: column;
         width: 70.89%;
-        border: salmon 2px solid;
+        // border: salmon 2px solid;
       }
     }
   }
