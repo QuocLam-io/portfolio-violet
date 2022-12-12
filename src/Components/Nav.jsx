@@ -12,7 +12,20 @@ const Nav = () => {
             <div className="">Software Engineer</div>
           </div>
         </div>
-        <div className="nav-menu"></div>
+        <div className="nav-menu">
+          <div className="nav-menu-item">home</div>
+          <div className="nav-menu-item">about</div>
+          <div className="nav-menu-item">projects</div>
+          <div className="nav-menu-item">contact</div>
+
+          <div className="nav-menu-icons">
+            <img src="imgs/resume.svg" alt="" />
+            <div>
+              <img src="imgs/github.svg" alt="" />
+              <img src="imgs/linkedin.svg" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
       <div className="nav-bottom">
         <p>Hand-coded with love</p>
