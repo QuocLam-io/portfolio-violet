@@ -19,10 +19,18 @@ const Nav = () => {
           <div className="nav-menu-item">contact</div>
 
           <div className="nav-menu-icons">
-            <img src="imgs/resume.svg" alt="" />
+            <a href="">
+              <img src="imgs/resume.svg" alt="Resume Button" />
+            </a>
+
             <div>
-              <img src="imgs/github.svg" alt="" />
-              <img src="imgs/linkedin.svg" alt="" />
+              <a href="">
+                <img src="imgs/github.svg" alt="Github Button" />
+              </a>
+              <a href="">
+                <img src="imgs/linkedin.svg" alt="LinkedIn Button" />
+              </a>
+
             </div>
           </div>
         </div>
