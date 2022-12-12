@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Merp = () => {
   return (
-    <div className='merp-parent' >Merp</div>
-  )
-}
+    <div className="merp-parent">
 
-export default Merp
+    </div>
+  );
+};
+
+export default Merp;

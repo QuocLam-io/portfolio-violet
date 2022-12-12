@@ -72,23 +72,56 @@ video {
 
   .nav-top {
     display: flex;
+    overflow: hidden;
+
     // border: $test-border;
 
     .logo {
       display: flex;
       width: 100%;
-      border: $test-border;
+      // border: $test-border;
 
       //* ---------------------------------- Merp ---------------------------------- */
 
       .merp-parent {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 29.11%;
         aspect-ratio: 1/1;
         border-radius: 8px;
-        border: orange 2px solid;
-      }
+        overflow: hidden;
+        // border: red 2px solid;
 
-      .logo-right{
+        &::before {
+          content: "";
+          position: absolute;
+          width: clamp(6rem, 7vw, 10rem);
+          aspect-ratio: 1/1;
+          background: linear-gradient(
+            rgba(97, 218, 251, 0),
+            #61dafb,
+            #9122ff,
+            #000aff,
+            #9022ff,
+            #61dafb,
+            rgba(97, 218, 251, 0)
+          );
+          animation: rotate 15s linear infinite;
+          @keyframes rotate {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+        }
+      }
+      //* -------------------------------------------------------------------------- */
+
+      .logo-right {
         display: flex;
         flex-direction: column;
         width: 70.89%;
