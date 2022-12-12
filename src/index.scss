@@ -79,7 +79,9 @@ video {
 
     .logo {
       display: flex;
+      align-items: center;
       width: 100%;
+      gap: 1rem;
       // border: $test-border;
 
       //* ---------------------------------- Merp ---------------------------------- */
@@ -135,6 +137,27 @@ video {
         flex-direction: column;
         width: 70.89%;
         // border: salmon 2px solid;
+
+        :first-child {
+          font-family: "Avenir";
+          font-weight: 800;
+          font-size: clamp(3rem, 
+            3vw, 
+            7rem);
+          line-height: 100%;
+          // border: $test-border;
+        }
+
+        :last-child {
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: clamp(1rem, 
+            1vw, 
+            3rem);
+          font-weight: 300;
+          line-height: 100%;
+          color: #61dafb;
+          // border: $test-border;
+        }
       }
     }
   }
