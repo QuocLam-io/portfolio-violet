@@ -32,7 +32,7 @@ const Home = () => {
           <p>Quoc Lam 👋🏻</p>
           <div>
             {/* <span ref={typedRef}></span> */}
-            <span>Fullstack Developer</span>
+            <span>Fullstack Developer <span>|</span></span>
           </div>
         </div>
         <div className="name-icons">

@@ -212,9 +212,9 @@ a {
 
     img {
       height: 100%;
-      &:hover {
-        background: salmon;
-      }
+      // &:hover {
+      //   background: salmon;
+      // }
     }
   }
 }
@@ -234,13 +234,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     gap: 2.5vh;
     // border: $test-border;
 
     .name-titles {
       display: flex;
       flex-direction: column;
+      // border: $test-border;
 
       :nth-child(1) {
         font-family: "Roboto Condensed";
@@ -261,19 +261,25 @@ a {
         font-family: "Roboto Condensed";
         font-size: clamp(1.5rem, 2vw, 10vw);
         line-height: 140%;
-        line-height: 140%;
         letter-spacing: 0.05em;
         color: #61dafb;
+
+        span {
+          font-size: clamp(1.5rem, 2vw, 10vw);
+          line-height: 140%;
+        }
       }
     }
 
     .name-icons {
       display: flex;
-      gap: 1vw;
+      height: 5vh;
+      gap: 1.5vw;
       // border: $test-border;
 
-      img{
-        height: 5vh;
+      img {
+        width: 2.7vw;
+        // border: $test-border;
       }
     }
   }
