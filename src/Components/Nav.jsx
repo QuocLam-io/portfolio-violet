@@ -13,10 +13,11 @@ const Nav = () => {
           </div>
         </div>
         <div className="nav-menu">
-          <div className="nav-menu-item">home</div>
-          <div className="nav-menu-item">about</div>
-          <div className="nav-menu-item">projects</div>
-          <div className="nav-menu-item">contact</div>
+          <a href="" alt="" 
+          className="nav-menu-item">home</a>
+          <a href="" alt="" className="nav-menu-item">about</a>
+          <a href="" alt="" className="nav-menu-item">projects</a>
+          <a href="" alt="" className="nav-menu-item">contact</a>
 
           <div className="nav-menu-icons">
             <a href="">

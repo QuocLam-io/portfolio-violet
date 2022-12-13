@@ -34,7 +34,7 @@ video {
   position: fixed;
   min-height: 100vh;
   min-width: 100vw;
-  overflow-y: scroll;
+  // overflow-y: scroll;
   background: #0b0c32;
   // background-size: cover;
   // z-index: -1;
@@ -44,7 +44,14 @@ video {
 
 .App {
   display: flex;
+  // width: 100vw;
   font-family: Avenir;
+  // border: orange 2px solid;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 //* --------------------------------- Navbar --------------------------------- */
@@ -55,8 +62,8 @@ video {
   justify-content: space-between;
   min-width: 263px;
   width: 18vw;
-  height: 100%;
-  padding: 18.26% 6.09% 9.13% 9.13%;
+  height: 100vh;
+  padding: 3.28% 1.08% 1.64% 1.64%;
   border-right: 2px solid;
   border-image: linear-gradient(
       180deg,
@@ -69,7 +76,7 @@ video {
       rgba(97, 218, 251, 0) 99%
     )
     1;
-  // border: 2px solid teal;
+  // border: 2px solid cyan;
 
   .nav-top {
     display: flex;
@@ -192,11 +199,6 @@ video {
           width: 28.3%;
           gap: 26%;
           // border: $test-border;
-
-          > * {
-            // width: 100%;
-            // height: 100%;
-          }
         }
       }
     }
@@ -214,4 +216,13 @@ video {
       }
     }
   }
+}
+
+//* ---------------------------------- Home ---------------------------------- */
+
+.home-parent {
+  display: flex;
+  width: 81.6vw;
+  border: $test-border;
+
 }
