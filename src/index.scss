@@ -236,7 +236,7 @@ a {
     justify-content: space-between;
 
     gap: 2.5vh;
-    border: $test-border;
+    // border: $test-border;
 
     .name-titles {
       display: flex;
@@ -268,8 +268,13 @@ a {
     }
 
     .name-icons {
-    border: $test-border;
+      display: flex;
+      gap: 1vw;
+      // border: $test-border;
 
+      img{
+        height: 5vh;
+      }
     }
   }
 }
