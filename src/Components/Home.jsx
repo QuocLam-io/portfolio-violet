@@ -47,7 +47,9 @@ const Home = () => {
           <img src="imgs/icons/nodejs.svg" alt="" />
           <img src="imgs/icons/framer-motion.svg" alt="" />
           <img src="imgs/icons/sass.svg" alt="" />
-          <p>Add Redux</p>
+          <img src="imgs/icons/redux.svg" alt="" />
+          <img src="imgs/icons/python.svg" alt="" />
+          <img src="imgs/icons/postsql.svg" alt="" />
         </div>
       </div>
       <div className="my-projects">

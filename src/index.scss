@@ -181,6 +181,10 @@ a {
         font-weight: 400;
         font-size: clamp(1.3rem, 1.5vw, 10rem);
         // border: $test-border;
+
+        &:hover{
+          color: #61dafb;
+        }
       }
       .nav-menu-icons {
         display: flex;
