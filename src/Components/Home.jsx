@@ -58,20 +58,23 @@ const Home = () => {
           <img
             className="filter-btn"
             src="imgs/filter-buttons/all.svg"
-            alt=""
+            alt="All Button"
           />
           <div className="divider"></div>
           <div className="filter-carousel">
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
-            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+
           </div>
         </div>
         <div className="project-body">

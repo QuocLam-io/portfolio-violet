@@ -182,7 +182,7 @@ a {
         font-size: clamp(1.3rem, 1.5vw, 10rem);
         // border: $test-border;
 
-        &:hover{
+        &:hover {
           color: #61dafb;
         }
       }
@@ -218,9 +218,9 @@ a {
 
     img {
       height: 100%;
-      // &:hover {
-      //   background: salmon;
-      // }
+      &:hover {
+        background: salmon;
+      }
     }
   }
 }
@@ -291,60 +291,64 @@ a {
     }
   }
 
-  .my-projects{
+  .my-projects {
     display: flex;
     flex-direction: column;
-    border: cyan 2px solid;
+    // border: cyan 2px solid;
 
-    .project-header{
+    .project-header {
       display: flex;
+      align-items: flex-start;
       width: 100%;
 
-
-
-      > :first-child{
+      > :first-child {
         margin-right: 2vw;
       }
-      > :nth-child(2), :nth-child(3){
+      > :nth-child(2){
+        margin-right: 1vw;
+        // width: clamp(1.5rem, 3vw, 10vw);
+        // height: clamp(1.5rem, 3vw, 10vw);
+      }
+      > :nth-child(3) {
         margin-right: 1vw;
       }
 
-      .divider{
+      .divider {
         height: 100%;
         border: 1px solid rgba(255, 255, 255, 0.5);
       }
 
-      p{
+      p {
         font-family: "Avenir";
         font-size: clamp(1.5rem, 2vw, 10vw);
         line-height: 100%;
         letter-spacing: 0.05em;
       }
 
-      .filter-carousel{
+      .filter-carousel {
         display: flex;
-        width: 56.1vw;
+        flex-wrap: wrap;
+        width: 55.5vw;
         gap: 1vw;
-        overflow-x: scroll;
+        // overflow-x: scroll;
 
         border: $test-border;
-        .filter-btn{
+        .filter-btn {
           cursor: pointer;
         }
       }
     }
 
-    .project-body{
+    .project-body {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       border: $test-border;
 
-      .card{
+      .card {
         width: 30%;
         border: solid red 2px;
       }
     }
   }
 }
-
