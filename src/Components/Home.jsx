@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import Typed from "typed.js";
+import Card from "./Card";
+import data from "../data.json";
 
 const Home = () => {
   // const typedRef = useRef();
@@ -23,6 +25,9 @@ const Home = () => {
   //     typed.destroy();
   //   };
   // }, []);
+
+
+console.log(data)
 
   return (
     <div className="home-parent">
@@ -83,7 +88,7 @@ const Home = () => {
           <div className="astro-boi card"></div>
           <div className="greasy-spoon card"></div> */}
 
-          
+
         </div>
       </div>
     </div>

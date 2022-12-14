@@ -13,11 +13,18 @@ const Nav = () => {
           </div>
         </div>
         <div className="nav-menu">
-          <a href="" alt="" 
-          className="nav-menu-item">home</a>
-          <a href="" alt="" className="nav-menu-item">about</a>
-          <a href="" alt="" className="nav-menu-item">projects</a>
-          <a href="" alt="" className="nav-menu-item">contact</a>
+          <a href="" alt="" className="nav-menu-item">
+            home
+          </a>
+          <a href="" alt="" className="nav-menu-item">
+            about
+          </a>
+          <a href="" alt="" className="nav-menu-item">
+            projects
+          </a>
+          <a href="" alt="" className="nav-menu-item">
+            contact
+          </a>
 
           <div className="nav-menu-icons">
             <a href="">
@@ -31,14 +38,13 @@ const Nav = () => {
               <a href="">
                 <img src="imgs/linkedin.svg" alt="LinkedIn Button" />
               </a>
-
             </div>
           </div>
         </div>
       </div>
       <div className="nav-bottom">
         <p>Hand-coded with love</p>
-        <img src="imgs/hollow-heart.svg" alt="" srcset="" />
+        <img src="imgs/hollow-heart.svg" alt="" srcSet="" />
       </div>
     </div>
   );
