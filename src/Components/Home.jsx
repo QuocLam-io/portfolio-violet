@@ -33,6 +33,8 @@ const Home = () => {
         title={card.title}
         description={card.description}
         img={card.img}
+        tools={card.tools}
+        icons={card.icons}
       />
     );
   });

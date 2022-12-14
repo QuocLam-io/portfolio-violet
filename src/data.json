@@ -3,17 +3,22 @@
     "title": "Positive Place",
     "description": "Daily Gratitude Journal",
     "img": "imgs/cards/card-positive-place.svg",
-    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"]
+    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"],
+    "icons": ["",""]
   },
 
   {
     "title": "Macro Daddy",
-    "description": "Macro-nutrient Tracking App",
-    "img": "imgs/cards/card-positive-place.svg"
+    "description": "Macro-Nutrient Tracking App",
+    "img": "imgs/cards/card-positive-place.svg",
+    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"],
+    "icons": ["",""]
   },
   {
     "title": "Astro Boi",
     "description": "Word Guesing Game",
-    "img": "imgs/cards/card-positive-place.svg"
+    "img": "imgs/cards/card-positive-place.svg",
+    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"],
+    "icons": ["",""]
   }
 ]
