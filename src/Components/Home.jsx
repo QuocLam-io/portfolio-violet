@@ -32,7 +32,9 @@ const Home = () => {
           <p>Quoc Lam 👋🏻</p>
           <div>
             {/* <span ref={typedRef}></span> */}
-            <span>Fullstack Developer <span>|</span></span>
+            <span>
+              Fullstack Developer <span>|</span>
+            </span>
           </div>
         </div>
         <div className="name-icons">
@@ -48,7 +50,35 @@ const Home = () => {
           <p>Add Redux</p>
         </div>
       </div>
-      <div className="my-projects"></div>
+      <div className="my-projects">
+        <div className="project-header">
+          <p>My Projects</p>
+          <img
+            className="filter-btn"
+            src="imgs/filter-buttons/all.svg"
+            alt=""
+          />
+          <div className="divider"></div>
+          <div className="filter-carousel">
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+            <img className="filter-btn" src="" alt="" />
+          </div>
+        </div>
+        <div className="project-body">
+          <div className="positive-place card"></div>
+          <div className="macro-daddy card"></div>
+          <div className="astro-boi card"></div>
+          <div className="greasy-spoon card"></div>
+        </div>
+      </div>
     </div>
   );
 };
