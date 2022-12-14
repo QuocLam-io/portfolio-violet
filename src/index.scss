@@ -295,6 +295,7 @@ a {
   .my-projects {
     display: flex;
     flex-direction: column;
+    gap: 2.5vh;
     // border: cyan 2px solid;
 
     .project-header {
@@ -342,16 +343,23 @@ a {
 
     .project-body {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
-      border: $test-border;
+      gap: 2.5vh;
+      // border: $test-border;
 
       .card-parent {
-        border: solid red 2px;
+        width: clamp(20rem, 30%, 40rem);
+        // margin: auto;
+        // border: solid red 2px;
 
         .card-img{
           width: 100%;
           border-radius: 8px;
+        }
+
+        .card-icons{
+          display: flex;
         }
       }
     }

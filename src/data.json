@@ -3,29 +3,39 @@
     "title": "Positive Place",
     "description": "Daily Gratitude Journal",
     "img": "imgs/cards/card-positive-place.svg",
-    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"],
-    "icons": ["",""]
+    "tools": [
+      "React",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Sass",
+      "Framer Motion",
+      "JS"
+    ],
+    "icons": ["imgs/icons/react.svg", "imgs/icons/nodejs.svg", "imgs/icons/express.svg", "imgs/icons/mongodb.svg", "imgs/icons/sass.svg", "imgs/icons/framer-motion.svg"]
   },
 
   {
     "title": "Macro Daddy",
     "description": "Macro-Nutrient Tracking App",
     "img": "imgs/cards/card-macro-daddy.svg",
-    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"],
-    "icons": ["",""]
+    "tools": ["React", "NodeJS", "HTML", "CSS", "Sass", "Redux", "JS"],
+    "icons": ["", ""]
   },
   {
     "title": "Astro Boi",
     "description": "Word Guesing Game",
     "img": "imgs/cards/card-astro-boi.svg",
-    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"],
-    "icons": ["",""]
+    "tools": ["HTML", "CSS", "JS", "NodeJS"],
+    "icons": ["", ""]
   },
   {
     "title": "Greasy Spoon",
     "description": "Restaurant Tracking App",
     "img": "imgs/cards/card-greasy-spoon.svg",
-    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"],
-    "icons": ["",""]
+    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "JS"],
+    "icons": ["", ""]
   }
 ]
