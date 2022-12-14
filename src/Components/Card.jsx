@@ -1,10 +1,20 @@
 import React from "react";
 
-const Card = () => {
+const Card = ({ index, title, description, img }) => {
+
+console.log(img)
+
   return (
     <div className="card-parent">
-      <img src="" alt="" />
-      <div className="card-bottom"></div>
+      <div className="">{title}</div>
+      <div className="">{description}</div>
+      <div
+        className=""
+        style={{
+          backgroundImage: `url(${img})`,
+          backgroundSize: "cover",
+        }}
+      ></div>
     </div>
   );
 };

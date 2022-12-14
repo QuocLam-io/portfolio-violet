@@ -3,7 +3,7 @@ import React from "react";
 const Merp = () => {
   return (
     <div className="merp-parent">
-      <img src="/imgs/Merp.svg" alt="" srcSet="" />
+      <img src="/imgs/Merp.svg" alt="mascot" srcSet="" />
     </div>
   );
 };

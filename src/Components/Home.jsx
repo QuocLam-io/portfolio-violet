@@ -26,8 +26,16 @@ const Home = () => {
   //   };
   // }, []);
 
-
-console.log(data)
+  const cardMap = data.map((card, index) => {
+    return (
+      <Card
+        index={index}
+        title={card.title}
+        description={card.description}
+        img={card.img}
+      />
+    );
+  });
 
   return (
     <div className="home-parent">
@@ -67,19 +75,58 @@ console.log(data)
           />
           <div className="divider"></div>
           <div className="filter-carousel">
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-css.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-js.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-mongodb.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-express.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-react.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-nodejs.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-redux.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-sass.svg" alt="" />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-html.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-css.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-js.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-mongodb.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-express.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-react.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-nodejs.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-redux.svg"
+              alt=""
+            />
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-sass.svg"
+              alt=""
+            />
             {/* <img className="filter-btn" src="imgs/filter-buttons/btn-python.svg" alt="" />
             <img className="filter-btn" src="imgs/filter-buttons/btn-postsql.svg" alt="" /> */}
-            <img className="filter-btn" src="imgs/filter-buttons/btn-framer-motion.svg" alt="" />
-
+            <img
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-framer-motion.svg"
+              alt=""
+            />
           </div>
         </div>
         <div className="project-body">
@@ -87,8 +134,7 @@ console.log(data)
           <div className="macro-daddy card"></div>
           <div className="astro-boi card"></div>
           <div className="greasy-spoon card"></div> */}
-
-
+          {cardMap}
         </div>
       </div>
     </div>

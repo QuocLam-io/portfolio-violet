@@ -1,7 +1,19 @@
 [
   {
-    "name": "Positive Place",
+    "title": "Positive Place",
     "description": "Daily Gratitude Journal",
-    "img": "imgs/cards/positive-place.svg"
+    "img": "imgs/cards/card-positive-place.svg",
+    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "Sass", "Framer Motion", "JS"]
+  },
+
+  {
+    "title": "Macro Daddy",
+    "description": "Macro-nutrient Tracking App",
+    "img": "imgs/cards/card-positive-place.svg"
+  },
+  {
+    "title": "Astro Boi",
+    "description": "Word Guesing Game",
+    "img": "imgs/cards/card-positive-place.svg"
   }
 ]
