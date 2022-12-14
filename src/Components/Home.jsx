@@ -48,6 +48,7 @@ const Home = () => {
           <p>Add Redux</p>
         </div>
       </div>
+      <div className="my-projects"></div>
     </div>
   );
 };

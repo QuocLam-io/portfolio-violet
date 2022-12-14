@@ -227,6 +227,7 @@ a {
   width: 81.6vw;
   height: 100vh;
   padding: 3.33%;
+  gap: 10vh;
   overflow-y: scroll;
   // border: $test-border;
 
@@ -282,5 +283,9 @@ a {
         // border: $test-border;
       }
     }
+  }
+
+  .my-projects{
+    border: cyan 2px solid;
   }
 }
