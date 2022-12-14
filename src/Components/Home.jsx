@@ -63,25 +63,27 @@ const Home = () => {
           <div className="divider"></div>
           <div className="filter-carousel">
             <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
-            <img className="filter-btn" src="imgs/filter-buttons/btn-html.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-css.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-js.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-mongodb.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-express.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-react.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-nodejs.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-redux.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-sass.svg" alt="" />
+            {/* <img className="filter-btn" src="imgs/filter-buttons/btn-python.svg" alt="" />
+            <img className="filter-btn" src="imgs/filter-buttons/btn-postsql.svg" alt="" /> */}
+            <img className="filter-btn" src="imgs/filter-buttons/btn-framer-motion.svg" alt="" />
 
           </div>
         </div>
         <div className="project-body">
-          <div className="positive-place card"></div>
+          {/* <div className="positive-place card"></div>
           <div className="macro-daddy card"></div>
           <div className="astro-boi card"></div>
-          <div className="greasy-spoon card"></div>
+          <div className="greasy-spoon card"></div> */}
+
+          
         </div>
       </div>
     </div>

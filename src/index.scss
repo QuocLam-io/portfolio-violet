@@ -220,6 +220,7 @@ a {
       height: 100%;
       &:hover {
         background: salmon;
+        // background: rgba(244, 67, 54, 0.5);
       }
     }
   }
@@ -304,7 +305,7 @@ a {
       > :first-child {
         margin-right: 2vw;
       }
-      > :nth-child(2){
+      > :nth-child(2) {
         margin-right: 1vw;
         // width: clamp(1.5rem, 3vw, 10vw);
         // height: clamp(1.5rem, 3vw, 10vw);
@@ -331,12 +332,12 @@ a {
         width: 55.5vw;
         gap: 1vw;
         // overflow-x: scroll;
-
-        border: $test-border;
-        .filter-btn {
-          cursor: pointer;
-        }
+        // border: $test-border;
       }
+    }
+    
+    .filter-btn {
+      cursor: pointer;
     }
 
     .project-body {
