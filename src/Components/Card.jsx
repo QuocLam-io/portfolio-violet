@@ -17,7 +17,7 @@ console.log(icons)
 
   return (
     <div className="card-parent">
-      <img src={`${img}`} alt="" srcset="" />
+      <img className="card-img" src={`${img}`} alt="" srcset="" />
       <div className="">{title}</div>
       <div className="">{description}</div>
       <div className="">{iconMap}</div>

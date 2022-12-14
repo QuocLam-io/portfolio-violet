@@ -346,9 +346,13 @@ a {
       flex-wrap: wrap;
       border: $test-border;
 
-      .card {
-        width: 30%;
+      .card-parent {
         border: solid red 2px;
+
+        .card-img{
+          width: 100%;
+          border-radius: 8px;
+        }
       }
     }
   }
