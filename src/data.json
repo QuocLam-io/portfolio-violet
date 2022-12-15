@@ -21,7 +21,9 @@
       "imgs/icons/nodejs.svg",
       "imgs/icons/sass.svg",
       "imgs/icons/framer-motion.svg"
-    ]
+    ],
+    "traits": ["imgs/traits/desktop.svg", 
+    "imgs/traits/responsive.svg"]
   },
 
   {
@@ -33,14 +35,17 @@
       "imgs/icons/react.svg",
       "imgs/icons/redux.svg",
       "imgs/icons/sass.svg"
-    ]
+    ],
+    "traits": ["imgs/traits/desktop.svg", 
+    "imgs/traits/responsive.svg"]
   },
   {
     "title": "Astro Boi",
     "description": "Word Guesing Game",
     "img": "imgs/cards/card-astro-boi.svg",
     "tools": ["HTML", "CSS", "JS", "NodeJS"],
-    "icons": ["imgs/icons/html.svg", "imgs/icons/css.svg", "imgs/icons/js.svg"]
+    "icons": ["imgs/icons/html.svg", "imgs/icons/css.svg", "imgs/icons/js.svg"],
+    "traits": ["imgs/traits/desktop.svg"]
   },
   {
     "title": "Greasy Spoon",
@@ -52,6 +57,7 @@
       "imgs/icons/express.svg",
       "imgs/icons/react.svg",
       "imgs/icons/nodejs.svg"
-    ]
+    ],
+    "traits": ["imgs/traits/group.svg","imgs/traits/desktop.svg"]
   }
 ]

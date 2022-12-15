@@ -21,12 +21,12 @@ const Home = () => {
   const cardMap = filteredData.map((card, index) => {
     return (
       <Card
-        index={index}
         title={card.title}
         description={card.description}
         img={card.img}
         tools={card.tools}
         icons={card.icons}
+        traits={card.traits}
       />
     );
   });

@@ -372,19 +372,29 @@ a {
           gap: 1vh;
           padding: 0.5vw;
           padding-top: 0.7vw;
-          
+
           .card-header {
             display: flex;
             justify-content: space-between;
+            // border: solid red 2px;
+
 
             .project-title {
               font-weight: 500;
               font-size: clamp(1rem, 1.5vw, 10vw);
               line-height: 140%;
-            }
-            // .project-traits{
+              // border: solid red 2px;
 
-            // }
+            }
+            .project-traits {
+              display: flex;
+              gap: 0.5vw;
+              // border: solid red 2px;
+              img{
+                height: 1.5vw;
+                height: 80%;
+              }
+          }
           }
 
           .project-description {
