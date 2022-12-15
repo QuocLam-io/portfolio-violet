@@ -13,18 +13,15 @@ const Nav = () => {
           </div>
         </div>
         <div className="nav-menu">
-          <a href="" alt="" className="nav-menu-item">
+          {/* <a href="" alt="" className="nav-menu-item">
             home
           </a>
           <a href="" alt="" className="nav-menu-item">
             about
           </a>
           <a href="" alt="" className="nav-menu-item">
-            projects
-          </a>
-          <a href="" alt="" className="nav-menu-item">
             contact
-          </a>
+          </a> */}
 
           <div className="nav-menu-icons">
             <a 
