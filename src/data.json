@@ -14,7 +14,14 @@
       "Framer Motion",
       "JS"
     ],
-    "icons": ["imgs/icons/react.svg", "imgs/icons/nodejs.svg", "imgs/icons/express.svg", "imgs/icons/mongodb.svg", "imgs/icons/sass.svg", "imgs/icons/framer-motion.svg"]
+    "icons": [
+      "imgs/icons/mongodb.svg",
+      "imgs/icons/express.svg",
+      "imgs/icons/react.svg",
+      "imgs/icons/nodejs.svg",
+      "imgs/icons/sass.svg",
+      "imgs/icons/framer-motion.svg"
+    ]
   },
 
   {
@@ -22,7 +29,11 @@
     "description": "Macro-Nutrient Tracking App",
     "img": "imgs/cards/card-macro-daddy.svg",
     "tools": ["React", "NodeJS", "HTML", "CSS", "Sass", "Redux", "JS"],
-    "icons": ["imgs/icons/react.svg", "imgs/icons/sass.svg", "imgs/icons/redux.svg"]
+    "icons": [
+      "imgs/icons/react.svg",
+      "imgs/icons/redux.svg",
+      "imgs/icons/sass.svg"
+    ]
   },
   {
     "title": "Astro Boi",
@@ -36,6 +47,11 @@
     "description": "Restaurant Tracking App",
     "img": "imgs/cards/card-greasy-spoon.svg",
     "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "JS"],
-    "icons": ["imgs/icons/react.svg", "imgs/icons/nodejs.svg", "imgs/icons/express.svg", "imgs/icons/mongodb.svg"]
+    "icons": [
+      "imgs/icons/mongodb.svg",
+      "imgs/icons/express.svg",
+      "imgs/icons/react.svg",
+      "imgs/icons/nodejs.svg"
+    ]
   }
 ]
