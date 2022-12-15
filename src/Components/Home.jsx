@@ -62,7 +62,11 @@ const Home = () => {
       <div className="my-projects">
         <div className="project-header">
           <p>My Projects</p>
-          <img
+          <motion.img
+            whileHover={{ scale: 1.5 }}
+            style={{
+              background: activeTools === "" && "rgba(255, 255, 255, 0.25)",
+            }}
             className="filter-btn"
             src="imgs/filter-buttons/all.svg"
             alt="All Button"
@@ -72,9 +76,9 @@ const Home = () => {
           />
           <div className="divider"></div>
           <div className="filter-carousel">
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
               style={{
-                borderRadius: "100px",
                 background:
                   activeTools === "Redux" && "rgba(255, 255, 255, 0.25)",
               }}
@@ -85,9 +89,9 @@ const Home = () => {
                 setActiveTools("Redux");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
               style={{
-                borderRadius: "100px",
                 background:
                   activeTools === "HTML" && "rgba(255, 255, 255, 0.25)",
               }}
@@ -98,7 +102,12 @@ const Home = () => {
                 setActiveTools("HTML");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "CSS" && "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-css.svg"
               alt=""
@@ -106,7 +115,11 @@ const Home = () => {
                 setActiveTools("CSS");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background: activeTools === "JS" && "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-js.svg"
               alt=""
@@ -114,7 +127,12 @@ const Home = () => {
                 setActiveTools("JS");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "MongoDB" && "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-mongodb.svg"
               alt=""
@@ -122,7 +140,12 @@ const Home = () => {
                 setActiveTools("MongoDB");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "Express" && "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-express.svg"
               alt=""
@@ -130,7 +153,12 @@ const Home = () => {
                 setActiveTools("Express");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "React" && "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-react.svg"
               alt=""
@@ -138,7 +166,12 @@ const Home = () => {
                 setActiveTools("React");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "NodeJS" && "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-nodejs.svg"
               alt=""
@@ -146,7 +179,12 @@ const Home = () => {
                 setActiveTools("NodeJS");
               }}
             />
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "Sass" && "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-sass.svg"
               alt=""
@@ -155,7 +193,13 @@ const Home = () => {
               }}
             />
 
-            <img
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "Framer Motion" &&
+                  "rgba(255, 255, 255, 0.25)",
+              }}
               className="filter-btn"
               src="imgs/filter-buttons/btn-framer-motion.svg"
               alt=""

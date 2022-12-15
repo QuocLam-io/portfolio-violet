@@ -14,6 +14,7 @@ const Card = ({ index, title, description, img, tools, icons }) => {
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0 }}
+      whileHover={{ scale: 1.1 }}
       className="card-parent"
     >
       <img className="card-img" src={`${img}`} alt="" srcset="" />

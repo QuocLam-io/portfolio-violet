@@ -281,7 +281,7 @@ a {
 
     .name-icons {
       display: flex;
-      height: 5vh;
+      height: 4.5vh;
       gap: 1.5vw;
       // border: $test-border;
 
@@ -339,6 +339,11 @@ a {
     
     .filter-btn {
       cursor: pointer;
+      border-radius: 100px;
+
+      &:hover{
+        background: rgba(255, 255, 255, 0.2);
+      }
     }
 
     .project-body {
@@ -356,10 +361,12 @@ a {
         .card-img{
           width: 100%;
           border-radius: 8px;
+          box-shadow: 0px 15px 100px rgba(86, 88, 158, 0.35);
         }
 
         .card-icons{
           display: flex;
+          gap: .5vw;
         }
       }
     }
