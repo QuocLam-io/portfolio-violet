@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Typed from "typed.js";
 import Card from "./Card";
 import data from "../data.json";
 import { motion, AnimatePresence } from "framer-motion";

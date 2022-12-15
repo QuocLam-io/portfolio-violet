@@ -18,11 +18,16 @@ const Card = ({ index, title, description, img, tools, icons }) => {
       className="card-parent"
     >
       <img className="card-img" src={`${img}`} alt="" srcset="" />
-      <div className="">{title}</div>
-      <div className="">{description}</div>
-      <div className="">
-        <div className="card-icons">{iconMap}</div>
-        <div className="card-links"></div>
+      <div className="card-bottom">
+        <div className="card-header">
+          <div className="project-title">{title}</div>
+          <div className="project-traits"></div>
+        </div>
+        <div className="project-description">{description}</div>
+        <div className="">
+          <div className="card-icons">{iconMap}</div>
+          <div className="card-links"></div>
+        </div>
       </div>
     </motion.div>
   );
