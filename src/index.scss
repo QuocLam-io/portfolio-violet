@@ -350,13 +350,13 @@ a {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      gap: 2.5vh;
+      gap: 5vh;
       // border: $test-border;
 
       //* ----------------------------- Card Component ----------------------------- */
 
       .card-parent {
-        width: clamp(20rem, 30%, 40rem);
+        width: clamp(20rem, 41%, 40rem);
         // margin: auto;
         // border: solid red 2px;
 
@@ -417,7 +417,11 @@ a {
             letter-spacing: 0.46px;
             color: #90caf9;
             gap: 0.5vw;
-
+            .github{
+              display: flex;
+              color: #90caf9;
+              gap: 0.5vw;
+            }
             a{
               display: flex;
               gap: 0.5vw;
@@ -428,3 +432,4 @@ a {
     }
   }
 }
+

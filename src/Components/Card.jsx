@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Card = ({ title, description, img, tools, icons, traits }) => {
+const Card = ({ title, description, img, tools, icons, traits, links }) => {
   let iconMap = icons.map((icon) => {
     return <img src={`${icon}`} alt="" className="card-icon" />;
   });
@@ -31,9 +31,18 @@ const Card = ({ title, description, img, tools, icons, traits }) => {
           <div className="card-end">
             <div className="card-icons">{iconMap}</div>
             <div className="card-links">
-              <a href="">Github</a>
-              <a href="">Live
-              {/* <img src="imgs/live.svg" alt="" /> */}
+              {links.length === 3 ? (
+                <div className="github">
+                  <a target="blank" href={links[1]}>Github FE</a> <span>|</span>
+                  <a target="blank" href={links[2]}>BE</a> <span>|</span>
+                </div>
+              ) : (
+                <a target="blank" href={links[1]}>Github</a> 
+                
+              )}
+              <a href={links[0]} target="blank" >
+                Live
+                <img src="imgs/live.svg" alt="" />
               </a>
             </div>
           </div>

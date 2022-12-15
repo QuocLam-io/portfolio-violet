@@ -27,6 +27,7 @@ const Home = () => {
         tools={card.tools}
         icons={card.icons}
         traits={card.traits}
+        links={card.links}
       />
     );
   });

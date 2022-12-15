@@ -22,8 +22,12 @@
       "imgs/icons/sass.svg",
       "imgs/icons/framer-motion.svg"
     ],
-    "traits": ["imgs/traits/desktop.svg", 
-    "imgs/traits/responsive.svg"]
+    "traits": ["imgs/traits/desktop.svg", "imgs/traits/responsive.svg"],
+    "links": [
+      "https://positive-place.netlify.app/",
+      "https://github.com/QuocLam-io/positive-place-fe",
+      "https://github.com/QuocLam-io/Postive-Place-BE"
+    ]
   },
 
   {
@@ -36,8 +40,11 @@
       "imgs/icons/redux.svg",
       "imgs/icons/sass.svg"
     ],
-    "traits": ["imgs/traits/desktop.svg", 
-    "imgs/traits/responsive.svg"]
+    "traits": ["imgs/traits/desktop.svg", "imgs/traits/responsive.svg"],
+    "links": [
+      "https://macro-daddy.netlify.app/",
+      "https://github.com/QuocLam-io/Macro-Daddy"
+    ]
   },
   {
     "title": "Astro Boi",
@@ -45,7 +52,11 @@
     "img": "imgs/cards/card-astro-boi.svg",
     "tools": ["HTML", "CSS", "JS", "NodeJS"],
     "icons": ["imgs/icons/html.svg", "imgs/icons/css.svg", "imgs/icons/js.svg"],
-    "traits": ["imgs/traits/desktop.svg"]
+    "traits": ["imgs/traits/desktop.svg"],
+    "links": [
+      "https://astro-boy.netlify.app/",
+      "https://github.com/QuocLam-io/Astro-Boy"
+    ]
   },
   {
     "title": "Greasy Spoon",
@@ -58,6 +69,11 @@
       "imgs/icons/react.svg",
       "imgs/icons/nodejs.svg"
     ],
-    "traits": ["imgs/traits/group.svg","imgs/traits/desktop.svg"]
+    "traits": ["imgs/traits/group.svg", "imgs/traits/desktop.svg"],
+    "links": [
+      "https://greasy-spoon.netlify.app/",
+      "https://github.com/gauravgoyal87/restaurantfoodratingfe",
+      "https://github.com/gauravgoyal87/restaurantfoodratingapi"
+    ]
   }
 ]

@@ -27,15 +27,18 @@ const Nav = () => {
           </a>
 
           <div className="nav-menu-icons">
-            <a href="">
+            <a 
+            target="blank"
+            href="https://drive.google.com/file/d/1eE17fs9PG9PK43dH9hFreuecMyLa6TAj/view?usp=sharing">
               <img src="imgs/resume.svg" alt="Resume Button" />
             </a>
 
             <div>
-              <a href="">
+              <a href="https://github.com/QuocLam-io"
+                target="blank">
                 <img src="imgs/github.svg" alt="Github Button" />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/lam-quoc/" target="#">
                 <img src="imgs/linkedin.svg" alt="LinkedIn Button" />
               </a>
             </div>
