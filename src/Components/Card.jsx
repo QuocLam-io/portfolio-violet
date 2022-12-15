@@ -2,19 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Card = ({ title, description, img, tools, icons, traits }) => {
-
-
   let iconMap = icons.map((icon) => {
     return <img src={`${icon}`} alt="" className="card-icon" />;
   });
 
-  console.log(traits)
+  console.log(traits);
   let traitsMap = traits.map((trait) => {
-    return <img src={`${trait}`} alt=""  />;
+    return <img src={`${trait}`} alt="" />;
   });
-
-
-
 
   return (
     <motion.div
@@ -33,8 +28,15 @@ const Card = ({ title, description, img, tools, icons, traits }) => {
         </div>
         <div className="project-description">{description}</div>
         <div className="">
-          <div className="card-icons">{iconMap}</div>
-          <div className="card-links"></div>
+          <div className="card-end">
+            <div className="card-icons">{iconMap}</div>
+            <div className="card-links">
+              <a href="">Github</a>
+              <a href="">Live
+              {/* <img src="imgs/live.svg" alt="" /> */}
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </motion.div>

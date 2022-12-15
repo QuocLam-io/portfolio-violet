@@ -378,34 +378,50 @@ a {
             justify-content: space-between;
             // border: solid red 2px;
 
-
             .project-title {
               font-weight: 500;
               font-size: clamp(1rem, 1.5vw, 10vw);
               line-height: 140%;
               // border: solid red 2px;
-
             }
             .project-traits {
               display: flex;
               gap: 0.5vw;
               // border: solid red 2px;
-              img{
+              img {
                 height: 1.5vw;
                 height: 80%;
               }
-          }
+            }
           }
 
           .project-description {
             font-size: clamp(0.8rem, 1.2vw, 10vw);
             line-height: 140%;
           }
-
+          .card-end {
+            display: flex;
+            justify-content: space-between;
+          }
           .card-icons {
             display: flex;
+            // width: clamp(1rem, 1vw, 10vw);
             gap: 0.5vw;
             // border: solid red 2px;
+          }
+          .card-links {
+            display: flex;
+            font-weight: 700;
+            font-size: clamp(0.8rem, 1.2vw, 10vw);
+            line-height: 140%;
+            letter-spacing: 0.46px;
+            color: #90caf9;
+            gap: 0.5vw;
+
+            a{
+              display: flex;
+              gap: 0.5vw;
+            }
           }
         }
       }
