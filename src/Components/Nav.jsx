@@ -1,17 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Merp from "../Components/Merp";
 
 const Nav = () => {
   return (
     <div className="nav-parent">
+      
       <div className="nav-top">
-        <div className="logo">
+        <Link to ="/" className="logo">
           <Merp />
           <div className="logo-right">
             <div className="">Quoc</div>
             <div className="">Software Engineer</div>
           </div>
-        </div>
+        </Link>
         <div className="nav-menu">
           {/* <a href="" alt="" className="nav-menu-item">
             home
