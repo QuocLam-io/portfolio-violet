@@ -28,7 +28,7 @@ const Nav = () => {
           <div className="nav-menu-icons">
             <a 
             target="blank"
-            href="https://drive.google.com/file/d/1bC3oLyUXre3mSfhldK0rS65TaWBM6wDm/view?usp=sharing">
+            href="https://drive.google.com/file/d/1ZAB-4d8nPmkS3Hka-FU56GBhZgYzkCwm/view?usp=sharing">
               <img src="imgs/resume.svg" alt="Resume Button" />
             </a>
 
