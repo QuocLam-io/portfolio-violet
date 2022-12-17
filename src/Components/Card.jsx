@@ -37,8 +37,9 @@ const Card = ({ title, description, img, tools, icons, traits, links }) => {
                   <a target="blank" href={links[2]}>BE</a> <span>|</span>
                 </div>
               ) : (
-                <a target="blank" href={links[1]}>Github</a> 
-                
+                <div className="github">
+                  <a target="blank" href={links[1]}>Github</a> <span>|</span>
+                </div>
               )}
               <a href={links[0]} target="blank" >
                 Live
