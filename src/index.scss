@@ -90,6 +90,7 @@ a {
     height: 10%;
     width: 100%;
     border: none;
+    // border: 2px solid cyan;
   }
 
   .nav-top {
@@ -102,7 +103,7 @@ a {
     .logo {
       display: flex;
       align-items: center;
-      width: 100%;
+      // width: 100%;
       gap: 1rem;
       // border: $test-border;
 
@@ -157,7 +158,7 @@ a {
       .logo-right {
         display: flex;
         flex-direction: column;
-        width: 70.89%;
+        // width: 70.89%;
         // border: salmon 2px solid;
 
         :first-child {
@@ -177,12 +178,37 @@ a {
           // border: $test-border;
         }
       }
+
+      .hamburger {
+        @media screen and (max-width: $mobile) {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-left: auto;
+          height: 100%;
+          aspect-ratio: 1/1;
+          gap: 11.8%;
+          // border: $test-border;
+        }
+
+        .hamburger-line{
+          width: 45%;
+          height: 3.75%;
+          background: rgba(240, 240, 240, 0.9);
+          transition: all 0.3s ease-in-out;
+        }
+      }
     }
     .nav-menu {
       display: flex;
       flex-direction: column;
       gap: 1rem;
       // border: $test-border;
+
+      @media screen and (max-width: $mobile) {
+        display: none;
+      }
 
       .nav-menu-item {
         display: flex;
@@ -302,6 +328,16 @@ a {
       img {
         width: 2.7vw;
         // border: $test-border;
+      }
+      @media screen and (max-width: $mobile) {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        // border: $test-border;
+
+        img {
+          height: 3.5vh;
+          width: 5vw;
+        }
       }
     }
   }

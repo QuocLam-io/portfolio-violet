@@ -5,13 +5,17 @@ import Merp from "../Components/Merp";
 const Nav = () => {
   return (
     <div className="nav-parent">
-      
       <div className="nav-top">
-        <Link to ="/" className="logo">
+        <Link to="/" className="logo">
           <Merp />
           <div className="logo-right">
             <div className="">Quoc</div>
             <div className="">Software Engineer</div>
+          </div>
+          <div className="hamburger">
+            <div className="hamburger-line"></div>
+            <div className="hamburger-line"></div>
+            <div className="hamburger-line"></div>
           </div>
         </Link>
         <div className="nav-menu">
@@ -21,20 +25,20 @@ const Nav = () => {
           <Link to="/about" className="nav-menu-item">
             about
           </Link>
-          <a href="" alt="" className="nav-menu-item">
+          <Link to="/contact" className="nav-menu-item">
             contact
-          </a>
+          </Link>
 
           <div className="nav-menu-icons">
-            <a 
-            target="blank"
-            href="https://drive.google.com/file/d/1ZAB-4d8nPmkS3Hka-FU56GBhZgYzkCwm/view?usp=sharing">
+            <a
+              target="blank"
+              href="https://drive.google.com/file/d/1ZAB-4d8nPmkS3Hka-FU56GBhZgYzkCwm/view?usp=sharing"
+            >
               <img src="imgs/resume.svg" alt="Resume Button" />
             </a>
 
             <div>
-              <a href="https://github.com/QuocLam-io"
-                target="blank">
+              <a href="https://github.com/QuocLam-io" target="blank">
                 <img src="imgs/github.svg" alt="Github Button" />
               </a>
               <a href="https://www.linkedin.com/in/lam-quoc/" target="#">
@@ -46,12 +50,7 @@ const Nav = () => {
       </div>
       <div className="nav-bottom">
         <p>Hand-coded with love</p>
-        <img
-       
-          src="imgs/hollow-heart.svg"
-          alt=""
-          srcSet=""
-        />
+        <img src="imgs/hollow-heart.svg" alt="" srcSet="" />
       </div>
     </div>
   );
