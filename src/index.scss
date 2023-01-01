@@ -34,13 +34,18 @@ video {
   display: flex;
   min-height: 100%;
   min-width: 100vw;
-  background: #0b0c32;
+  // background: #0b0c32;
   backdrop-filter: blur(2px);
   // border: pink 2px solid;
 
   ::-webkit-scrollbar {
     display: none;
   }
+}
+
+html {
+  background: #0b0c32;
+
 }
 
 .App {
@@ -135,7 +140,7 @@ a {
             #61dafb,
             rgba(97, 218, 251, 0)
           );
-          animation: rotate 5s linear infinite;
+          // animation: rotate 5s linear infinite;
           @keyframes rotate {
             0% {
               transform: rotate(0deg);
@@ -197,6 +202,7 @@ a {
           width: 45%;
           height: 3.75%;
           background: rgba(240, 240, 240, 0.9);
+          
           transition: all 0.3s ease-in-out;
         }
       }
@@ -278,6 +284,10 @@ a {
   gap: 10vh;
   overflow: scroll;
   // border: $test-border;
+
+  @media screen and (max-width: $mobile) {
+    overflow: visible;
+  }
 
   .home-name {
     display: flex;
