@@ -212,6 +212,7 @@ const Home = () => {
         <motion.div layout className="project-body">
           <AnimatePresence>{cardMap}</AnimatePresence>
         </motion.div>
+        <div className="nav-block"></div>
       </div>
     </div>
   );

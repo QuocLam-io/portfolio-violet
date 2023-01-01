@@ -52,7 +52,7 @@ html {
   display: flex;
   width: 100%;
   font-family: Avenir;
-  // border: orange 2px solid;
+  border: orange 2px solid;
 
   @media screen and (max-width: $mobile) {
     flex-direction: column;
@@ -279,7 +279,7 @@ a {
   display: flex;
   flex-direction: column;
   // width: 81.6vw;
-  height: 100vh;
+  // height: 100vh;
   padding: 3.33%;
   gap: 10vh;
   overflow: scroll;
@@ -287,6 +287,10 @@ a {
 
   @media screen and (max-width: $mobile) {
     overflow: visible;
+  }
+
+  @media screen and (min-width: $mobile) {
+    height: 100vh;
   }
 
   .home-name {
@@ -493,3 +497,22 @@ a {
     }
   }
 }
+ //* ------------------------------- Nav Bottom ------------------------------- */
+
+ .nav-bottom-parent{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  padding: 4.3% 6.5%;
+  border: 2px solid cyan;
+ }
+
+ .nav-block {
+  width: 100%;
+  height: 6vh;
+  // border: 2px solid red;
+ }
