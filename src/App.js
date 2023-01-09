@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Nav from "./Components/Nav";
 import Home from "./Components/Home";
 import About from "./Components/About";
@@ -7,9 +8,15 @@ import Menu from "./Components/Menu";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
+
+  const [menuOn, setMenuOn] = useState(false);
+
   return (
     <div className="App">
-      <Nav />
+      <Nav 
+      menuOn={menuOn}
+      setMenuOn={setMenuOn}
+      />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />

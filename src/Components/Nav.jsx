@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Merp from "../Components/Merp";
 
-const Nav = () => {
-  const [menuOn, setMenuOn] = useState(false);
+const Nav = ({menuOn, setMenuOn}) => {
 
   return (
     <div className="nav-parent">

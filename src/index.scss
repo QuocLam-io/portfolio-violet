@@ -212,6 +212,23 @@ a {
           transition: all 0.3s ease-in-out;
         }
       }
+
+      .menu-active .line1 {
+        transform: 
+        translateY(400%)
+        rotate(-45deg);
+      }
+
+      .menu-active .line2 {
+        opacity: 0;
+      }
+
+      .menu-active .line3 {
+        
+        transform: 
+        translateY(-400%)
+        rotate(45deg);
+      }
     }
     .nav-menu {
       display: flex;
