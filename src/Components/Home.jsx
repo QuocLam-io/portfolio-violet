@@ -45,6 +45,7 @@ const Home = () => {
           </div>
         </div>
         <div className="name-icons">
+          <img src="imgs/icons/ts.svg" alt="" />
           <img src="imgs/icons/html.svg" alt="" />
           <img src="imgs/icons/css.svg" alt="" />
           <img src="imgs/icons/js.svg" alt="" />
