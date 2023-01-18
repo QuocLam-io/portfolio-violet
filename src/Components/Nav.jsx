@@ -27,12 +27,12 @@ const Nav = ({menuOn, setMenuOn}) => {
           <Link to="/" className="nav-menu-item">
             home
           </Link>
-          <Link to="/about" className="nav-menu-item">
+          {/* <Link to="/about" className="nav-menu-item">
             about
           </Link>
           <Link to="/contact" className="nav-menu-item">
             contact
-          </Link>
+          </Link> */}
 
           <div className="nav-menu-icons">
             <a
