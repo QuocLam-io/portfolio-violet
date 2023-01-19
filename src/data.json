@@ -51,7 +51,11 @@
     "description": "Word Guesing Game",
     "img": "imgs/cards/card-astro-boi.svg",
     "tools": ["HTML", "CSS", "JS", "NodeJS", "Sass", "React", "TypeScript"],
-    "icons": ["imgs/icons/ts.svg", "imgs/icons/react.svg", "imgs/icons/sass.svg"],
+    "icons": [
+      "imgs/icons/ts.svg",
+      "imgs/icons/react.svg",
+      "imgs/icons/sass.svg"
+    ],
     "traits": ["imgs/traits/desktop.svg"],
     "links": [
       "https://astro-boy.netlify.app/",
@@ -74,6 +78,22 @@
       "https://greasy-spoon.netlify.app/",
       "https://github.com/gauravgoyal87/restaurantfoodratingfe",
       "https://github.com/gauravgoyal87/restaurantfoodratingapi"
+    ]
+  },
+  {
+    "title": "Portfolio",
+    "description": "Collection of Projects",
+    "img": "imgs/cards/card-portfolio.svg",
+    "tools": ["React", "NodeJS", "Sass", "Framer Motion", "HTML", "CSS", "JS"],
+    "icons": [
+      "imgs/icons/sass.svg",
+      "imgs/icons/react.svg",
+      "imgs/icons/framer-motion.svg"
+    ],
+    "traits": ["imgs/traits/responsive.svg", "imgs/traits/desktop.svg"],
+    "links": [
+      "https://quoclam-io.netlify.app/",
+      "https://github.com/QuocLam-io/portfolio-violet"
     ]
   }
 ]
