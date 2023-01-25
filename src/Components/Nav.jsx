@@ -37,7 +37,7 @@ const Nav = ({menuOn, setMenuOn}) => {
           <div className="nav-menu-icons">
             <a
               target="blank"
-              href="https://drive.google.com/file/d/1ZAB-4d8nPmkS3Hka-FU56GBhZgYzkCwm/view?usp=sharing"
+              href="https://drive.google.com/file/d/1hvfEnXe2WqwC71JRdQ3JVU5IK2FbAyoM/view?usp=sharing"
             >
               <img src="imgs/resume.svg" alt="Resume Button" />
             </a>
