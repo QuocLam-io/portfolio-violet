@@ -146,7 +146,7 @@ a {
             #61dafb,
             rgba(97, 218, 251, 0)
           );
-          animation: rotate 5s linear infinite;
+          // animation: rotate 5s linear infinite;
           @keyframes rotate {
             0% {
               transform: rotate(0deg);
@@ -214,9 +214,7 @@ a {
       }
 
       .menu-active .line1 {
-        transform: 
-        translateY(415%)
-        rotate(-45deg);
+        transform: translateY(415%) rotate(-45deg);
       }
 
       .menu-active .line2 {
@@ -224,10 +222,7 @@ a {
       }
 
       .menu-active .line3 {
-        
-        transform: 
-        translateY(-415%)
-        rotate(45deg);
+        transform: translateY(-415%) rotate(45deg);
       }
     }
     .nav-menu {
@@ -566,4 +561,55 @@ a {
     // width: 1.5vw;
     height: 60%;
   }
+}
+
+//* ---------------------------------- About --------------------------------- */
+
+.About {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 4.5%;
+  // gap: 2rem;
+  gap: 5%;
+
+  // border: #000aff 2px solid;
+
+  h1 {
+    font-size: clamp(1.5rem, 2.8vw, 10vw);
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    // gap: 2%;
+    // border: #000aff 2px solid;
+
+    div {
+      width: 24%;
+      aspect-ratio: 1/1;
+      // border: #000aff 2px solid;
+      background-image: url(../public/imgs/about/profile2.jpg);
+      background-size: cover;
+      background-position: center;
+      // filter: drop-shadow(0px 15px 100px rgba(86, 88, 158, 0.35));
+      border-radius: 12px;
+    }
+
+    p{
+      width: 73%;
+      font-size: clamp(16px, 1.5vw, 10vw);
+      line-height: 140%;
+      color: rgba(255, 255, 255, 0.8);
+      // border: orange 2px solid;
+    }
+  }
+
+  // :nth-of-type(2) {
+  //   border: teal 2px solid;
+  // }
 }
