@@ -3,8 +3,10 @@ import React from 'react'
 const Menu = () => {
   return (
     <div
-    className='menu-parent'
-    >Menu</div>
+    className='Menu'
+    >
+
+    </div>
   )
 }
 
