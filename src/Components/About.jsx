@@ -18,7 +18,9 @@ const About = () => {
         <p>
         <br />
           Outside of coding, I spend my time trying to eat as many dumplings as I can. Lately I've been reading more books, practicing my moonwalk, and taking care of my cat/master. </p>
-        <div></div>
+        <div
+        className="profile-pic-2"
+        ></div>
       </div>
     </div>
   );
