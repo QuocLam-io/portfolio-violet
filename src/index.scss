@@ -123,6 +123,7 @@ a {
         aspect-ratio: 1/1;
         border-radius: 8px;
         overflow: hidden;
+        z-index: 3;
         // border: red 2px solid;
 
         backface-visibility: hidden;
@@ -170,6 +171,7 @@ a {
       .logo-right {
         display: flex;
         flex-direction: column;
+        z-index: 3;
         // width: 70.89%;
         // border: salmon 2px solid;
 
@@ -201,6 +203,7 @@ a {
           height: 100%;
           aspect-ratio: 1/1;
           gap: 11.8%;
+          z-index: 3;
           // border: $test-border;
         }
 
@@ -528,11 +531,14 @@ a {
   padding: 4.3% 6.5%;
   background: #0b0c32;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 3;
+
   // border: 2px solid cyan;
 
   @media screen and (min-width: $mobile) {
     display: none;
   }
+
 }
 
 .nav-block {
@@ -600,7 +606,7 @@ a {
       border-radius: 12px;
     }
 
-    p{
+    p {
       width: 73%;
       font-size: clamp(16px, 1.5vw, 10vw);
       line-height: 140%;
@@ -621,8 +627,13 @@ a {
 
 //* ---------------------------------- Menu ---------------------------------- */
 
-.Menu{
+.Menu {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 3, 77, 0.8);
+  backdrop-filter: blur(7.5px);
+  position: absolute;
   z-index: 2;
 }

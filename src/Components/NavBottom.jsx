@@ -1,8 +1,10 @@
 import React from "react";
 
-const NavBottom = ({resumeURL}) => {
+const NavBottom = ({resumeURL, menuOn}) => {
   return (
-    <div className="nav-bottom-parent">
+    <div className="nav-bottom-parent"
+    {...menuOn && {style: {background: "rgba(0, 3, 77, 0.8)", borderTop: "none"}}}
+    >
       {/* <div> */}
       <a href="https://github.com/QuocLam-io" target="blank">
         <img src="imgs/github.svg" alt="Github Button" />
