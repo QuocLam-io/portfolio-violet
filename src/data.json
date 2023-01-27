@@ -56,7 +56,7 @@
       "imgs/icons/react.svg",
       "imgs/icons/sass.svg"
     ],
-    "traits": ["imgs/traits/desktop.svg"],
+    "traits": ["imgs/traits/responsive.svg", "imgs/traits/desktop.svg"],
     "links": [
       "https://astro-boy.netlify.app/",
       "https://github.com/QuocLam-io/astro-boy-typescript"
