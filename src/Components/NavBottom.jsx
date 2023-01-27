@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavBottom = () => {
+const NavBottom = ({resumeURL}) => {
   return (
     <div className="nav-bottom-parent">
       {/* <div> */}
@@ -10,7 +10,7 @@ const NavBottom = () => {
       <a
         className="nb-resume"
         target="blank"
-        href="https://drive.google.com/file/d/1ZAB-4d8nPmkS3Hka-FU56GBhZgYzkCwm/view?usp=sharing"
+        href={resumeURL}
       >
         {/* <div className="nb-resume"> */}
         <p>RESUME</p>

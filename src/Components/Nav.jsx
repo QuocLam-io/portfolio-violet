@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Merp from "../Components/Merp";
 
-const Nav = ({menuOn, setMenuOn}) => {
-
+const Nav = ({ menuOn, setMenuOn, resumeURL }) => {
   return (
     <div className="nav-parent">
       <div className="nav-top">
@@ -35,10 +34,7 @@ const Nav = ({menuOn, setMenuOn}) => {
           </Link> */}
 
           <div className="nav-menu-icons">
-            <a
-              target="blank"
-              href="https://drive.google.com/file/d/1hvfEnXe2WqwC71JRdQ3JVU5IK2FbAyoM/view?usp=sharing"
-            >
+            <a target="blank" href={resumeURL}>
               <img src="imgs/resume.svg" alt="Resume Button" />
             </a>
 

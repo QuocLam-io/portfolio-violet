@@ -11,11 +11,14 @@ function App() {
 
   const [menuOn, setMenuOn] = useState(false);
 
+  const resumeURL = "https://drive.google.com/file/d/1hvfEnXe2WqwC71JRdQ3JVU5IK2FbAyoM/view?usp=sharing";
+
   return (
     <div className="App">
       <Nav 
       menuOn={menuOn}
       setMenuOn={setMenuOn}
+      resumeURL={resumeURL}
       />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,7 +26,9 @@ function App() {
         <Route path="contact" element={<Contact />} />
       </Routes>
       <Menu />
-      <NavBottom />
+      <NavBottom 
+        resumeURL={resumeURL}
+      />
     </div>
   );
 }
