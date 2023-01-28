@@ -538,7 +538,6 @@ a {
   @media screen and (min-width: $mobile) {
     display: none;
   }
-
 }
 
 .nav-block {
@@ -630,10 +629,19 @@ a {
 .Menu {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100%;
   background: rgba(0, 3, 77, 0.8);
   backdrop-filter: blur(7.5px);
   position: absolute;
+  gap: 2%;
   z-index: 2;
+  padding: 30% 0;
+  letter-spacing: 0.02em;
+  font-family: "Roboto Condensed";
+
+  font-size: 24px;
+  line-height: 28px;
+  // border: $test-border;
 }
