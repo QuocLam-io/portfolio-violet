@@ -6,7 +6,7 @@ const Card = ({ title, description, img, tools, icons, traits, links }) => {
     return <img src={`${icon}`} alt="" className="card-icon" />;
   });
 
-  console.log(traits);
+  // console.log(traits);
   let traitsMap = traits.map((trait) => {
     return <img src={`${trait}`} alt="" />;
   });

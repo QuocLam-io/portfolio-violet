@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Merp from "../Components/Merp";
+import Menu from "../Components/Menu";
 
 const Nav = ({ menuOn, setMenuOn, resumeURL }) => {
+
+
   return (
     <div className="nav-parent">
       <div className="nav-top">
+      {/* {menuOn && <Menu setMenuOn={setMenuOn} menuOn={menuOn} />} */}
+
         <Link to="/" className="logo">
           <Merp />
           <div className="logo-right">
@@ -29,9 +34,7 @@ const Nav = ({ menuOn, setMenuOn, resumeURL }) => {
           <Link to="/about" className="nav-menu-item">
             about
           </Link>
-          {/* <Link to="/contact" className="nav-menu-item">
-            contact
-          </Link> */}
+
 
           <div className="nav-menu-icons">
             <a target="blank" href={resumeURL}>
@@ -49,6 +52,7 @@ const Nav = ({ menuOn, setMenuOn, resumeURL }) => {
           </div>
         </div>
       </div>
+      {/* {menuOn && <Menu/>} */}
       <div className="nav-bottom">
         <p>Hand-coded with love</p>
         <img src="imgs/hollow-heart.svg" alt="" srcSet="" />

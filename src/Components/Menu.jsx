@@ -1,18 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Menu = () => {
+const Menu = ({ menuOn, setMenuOn }) => {
   return (
     <div className="Menu">
-      <Link to="/" className="nav-menu-item">
-        home
-      </Link>
-      <Link to="/about" className="nav-menu-item">
-        about
-      </Link>
-      {/* <Link to="/contact" className="nav-menu-item">
-            contact
-          </Link> */}
+      <Link to="/">home</Link>
+      <Link to="/about">about</Link>
+      <div 
+      onClick={() => setMenuOn(!menuOn)}
+      className="">X</div>
     </div>
   );
 };
