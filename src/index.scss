@@ -124,7 +124,7 @@ a {
         aspect-ratio: 1/1;
         border-radius: 8px;
         overflow: hidden;
-        z-index: 3;
+        // z-index: 3;
         // border: red 2px solid;
 
         backface-visibility: hidden;
@@ -172,7 +172,7 @@ a {
       .logo-right {
         display: flex;
         flex-direction: column;
-        z-index: 3;
+        // z-index: 3;
         // width: 70.89%;
         // border: salmon 2px solid;
 
@@ -204,7 +204,7 @@ a {
           height: 100%;
           aspect-ratio: 1/1;
           gap: 11.8%;
-          z-index: 3;
+          // z-index: 3;
           // border: $test-border;
         }
 
@@ -638,11 +638,14 @@ a {
   position: absolute;
   gap: 4vh;
   z-index: 2;
-  padding: 30% 0;
+  padding: 10% 10%;
   letter-spacing: 0.02em;
   font-family: "Roboto Condensed";
-
   font-size: 24px;
   line-height: 28px;
   // border: $test-border;
+
+  img{
+    align-self: end;
+  }
 }

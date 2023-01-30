@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Merp from "../Components/Merp";
-import Menu from "../Components/Menu";
 
 const Nav = ({ menuOn, setMenuOn, resumeURL }) => {
 

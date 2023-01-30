@@ -16,8 +16,8 @@ function App() {
 
   return (
     <div className="App">
-      {menuOn && <Menu setMenuOn={setMenuOn} menuOn={menuOn} />}
       <Nav menuOn={menuOn} setMenuOn={setMenuOn} resumeURL={resumeURL} />
+      {menuOn && <Menu setMenuOn={setMenuOn} menuOn={menuOn} />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
