@@ -5,8 +5,12 @@ const Menu = ({ menuOn, setMenuOn }) => {
   return (
     <div className="Menu">
       <img onClick={() => setMenuOn(!menuOn)} src="imgs/close.svg" alt="" />
-      <Link to="/">home</Link>
-      <Link to="/about">about</Link>
+      <Link onClick={() => setMenuOn(!menuOn)} to="/">
+        home
+      </Link>
+      <Link onClick={() => setMenuOn(!menuOn)} to="/about">
+        about
+      </Link>
       {/* <Link to="/contact">contact</Link> */}
     </div>
   );
