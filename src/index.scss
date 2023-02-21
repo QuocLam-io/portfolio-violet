@@ -93,7 +93,8 @@ a {
   // border: 2px solid cyan;
 
   @media screen and (max-width: $mobile) {
-    height: 10%;
+    // height: 10%;
+    height: 10vh;
     width: 100%;
     border: none;
     // border: 2px solid cyan;
