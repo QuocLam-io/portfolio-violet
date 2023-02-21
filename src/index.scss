@@ -593,9 +593,13 @@ a {
   > div {
     display: flex;
     justify-content: space-between;
-    height: 40%;
+    // height: 40%;
     // gap: 2%;
     // border: #000aff 2px solid;
+
+    @media screen and (min-width: $mobile) {
+      height: 40%;
+    }
 
     div {
       width: 24%;
