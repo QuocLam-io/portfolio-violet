@@ -93,7 +93,6 @@ a {
   // border: 2px solid cyan;
 
   @media screen and (max-width: $mobile) {
-    // height: 10%;
     height: 13vh;
     width: 100%;
     border: none;
@@ -581,7 +580,7 @@ a {
   // margin-top: 10%;
   // gap: 2rem;
   gap: 5%;
-  border: #000aff 2px solid;
+  // border: #000aff 2px solid;
 
   h1 {
     font-size: clamp(1.5rem, 2.8vw, 10vw);

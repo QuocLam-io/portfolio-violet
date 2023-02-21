@@ -20,7 +20,9 @@ const Card = ({ title, description, img, tools, icons, traits, links }) => {
       whileHover={{ scale: 1.1 }}
       className="card-parent"
     >
-      <img className="card-img" src={`${img}`} alt="" srcset="" />
+      <a href={links[0]} target="blank">
+        <img className="card-img" src={`${img}`} alt="" srcset="" />
+      </a>
       <div className="card-bottom">
         <div className="card-header">
           <div className="project-title">{title}</div>
@@ -33,15 +35,24 @@ const Card = ({ title, description, img, tools, icons, traits, links }) => {
             <div className="card-links">
               {links.length === 3 ? (
                 <div className="github">
-                  <a target="blank" href={links[1]}>Github FE</a> <span>|</span>
-                  <a target="blank" href={links[2]}>BE</a> <span>|</span>
+                  <a target="blank" href={links[1]}>
+                    Github FE
+                  </a>{" "}
+                  <span>|</span>
+                  <a target="blank" href={links[2]}>
+                    BE
+                  </a>{" "}
+                  <span>|</span>
                 </div>
               ) : (
                 <div className="github">
-                  <a target="blank" href={links[1]}>Github</a> <span>|</span>
+                  <a target="blank" href={links[1]}>
+                    Github
+                  </a>{" "}
+                  <span>|</span>
                 </div>
               )}
-              <a href={links[0]} target="blank" >
+              <a href={links[0]} target="blank">
                 Live
                 <img src="imgs/live.svg" alt="" />
               </a>
