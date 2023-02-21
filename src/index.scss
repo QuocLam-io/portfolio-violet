@@ -52,7 +52,7 @@ html {
   min-height: 100vh;
   width: 100%;
   font-family: Avenir;
-  gap: 10%;
+  // gap: 10%;
   // border: orange 2px solid;
 
   @media screen and (max-width: $mobile) {
@@ -577,6 +577,7 @@ a {
   flex-direction: column;
   width: 100%;
   padding: 4.5%;
+  margin-top: 10%;
   // gap: 2rem;
   gap: 5%;
 
