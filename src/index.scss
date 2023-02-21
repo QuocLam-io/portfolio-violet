@@ -577,11 +577,10 @@ a {
   flex-direction: column;
   width: 100%;
   padding: 4.5%;
-  margin-top: 10%;
+  // margin-top: 10%;
   // gap: 2rem;
   gap: 5%;
-
-  // border: #000aff 2px solid;
+  border: #000aff 2px solid;
 
   h1 {
     font-size: clamp(1.5rem, 2.8vw, 10vw);
