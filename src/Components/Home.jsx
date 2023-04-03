@@ -94,6 +94,19 @@ const Home = () => {
               whileHover={{ scale: 1.3 }}
               style={{
                 background:
+                  activeTools === "Typescript" && "rgba(255, 255, 255, 0.25)",
+              }}
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-ts.svg"
+              alt=""
+              onClick={() => {
+                setActiveTools("Typescript");
+              }}
+            />
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
                   activeTools === "HTML" && "rgba(255, 255, 255, 0.25)",
               }}
               className="filter-btn"
