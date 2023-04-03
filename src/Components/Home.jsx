@@ -77,19 +77,7 @@ const Home = () => {
           />
           <div className="divider"></div>
           <div className="filter-carousel">
-            <motion.img
-              whileHover={{ scale: 1.3 }}
-              style={{
-                background:
-                  activeTools === "Redux" && "rgba(255, 255, 255, 0.25)",
-              }}
-              className="filter-btn"
-              src="imgs/filter-buttons/btn-redux.svg"
-              alt=""
-              onClick={() => {
-                setActiveTools("Redux");
-              }}
-            />
+            
             <motion.img
               whileHover={{ scale: 1.3 }}
               style={{
@@ -101,6 +89,19 @@ const Home = () => {
               alt=""
               onClick={() => {
                 setActiveTools("Typescript");
+              }}
+            />
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
+                  activeTools === "Redux" && "rgba(255, 255, 255, 0.25)",
+              }}
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-redux.svg"
+              alt=""
+              onClick={() => {
+                setActiveTools("Redux");
               }}
             />
             <motion.img
