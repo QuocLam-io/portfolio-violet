@@ -11,7 +11,7 @@ const About = () => {
           Hi Everyone,
           <br /> 
           <br /> 
-          &emsp;I am a young software engineer with a background in fullstack development with a particular fondness for frontend. I take on coding challenges with the same enthusiasm of tackling a good puzzle. I enjoying building my stack by teaching myself new technologies (Redux, Typescript, etc.), as well as learning from others.
+          &emsp;I'm a software engineer with a background in fullstack development with a particular fondness for frontend. I take on coding challenges with the same enthusiasm of tackling a good puzzle. I enjoying building my stack by teaching myself new technologies (Redux, Typescript, etc.), as well as learning from others.
         </p>
       </div>
       <div>
