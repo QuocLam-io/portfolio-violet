@@ -104,44 +104,7 @@ const Home = () => {
                 setActiveTools("Redux");
               }}
             />
-            <motion.img
-              whileHover={{ scale: 1.3 }}
-              style={{
-                background:
-                  activeTools === "HTML" && "rgba(255, 255, 255, 0.25)",
-              }}
-              className="filter-btn"
-              src="imgs/filter-buttons/btn-html.svg"
-              alt=""
-              onClick={() => {
-                setActiveTools("HTML");
-              }}
-            />
-            <motion.img
-              whileHover={{ scale: 1.3 }}
-              style={{
-                background:
-                  activeTools === "CSS" && "rgba(255, 255, 255, 0.25)",
-              }}
-              className="filter-btn"
-              src="imgs/filter-buttons/btn-css.svg"
-              alt=""
-              onClick={() => {
-                setActiveTools("CSS");
-              }}
-            />
-            <motion.img
-              whileHover={{ scale: 1.3 }}
-              style={{
-                background: activeTools === "JS" && "rgba(255, 255, 255, 0.25)",
-              }}
-              className="filter-btn"
-              src="imgs/filter-buttons/btn-js.svg"
-              alt=""
-              onClick={() => {
-                setActiveTools("JS");
-              }}
-            />
+           
             <motion.img
               whileHover={{ scale: 1.3 }}
               style={{
