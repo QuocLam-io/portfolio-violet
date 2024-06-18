@@ -11,7 +11,9 @@ function App() {
   // const [sample, setSample] = useState(true);
 
   const resumeURL =
-    "https://drive.google.com/file/d/19FtTEKv71G0Q5t6rnbXbKDwCtrI6UIJ9/view?usp=sharing";
+    "https://drive.google.com/file/d/1A8tZ9NW-akuKTsUhmQx-CiTFfjU8pk9c/view";
+    
+    
 
   return (
     <div className="App">
