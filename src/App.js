@@ -11,7 +11,8 @@ function App() {
   // const [sample, setSample] = useState(true);
 
   const resumeURL =
-    "https://drive.google.com/file/d/17Hb9pu6C5NGrA0t-ChpEvhThRS3q3B9q/view";
+    "https://drive.google.com/file/d/1UiLxQVCPV3CCXJYlozkMJeJ2SBUNhv_v/view";
+
     
     
 
