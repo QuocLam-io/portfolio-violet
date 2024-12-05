@@ -95,6 +95,19 @@ const Home = () => {
               whileHover={{ scale: 1.3 }}
               style={{
                 background:
+                  activeTools === "Javascript" && "rgba(255, 255, 255, 0.25)",
+              }}
+              className="filter-btn"
+              src="imgs/filter-buttons/btn-js.svg"
+              alt=""
+              onClick={() => {
+                setActiveTools("Javascript");
+              }}
+            />
+            <motion.img
+              whileHover={{ scale: 1.3 }}
+              style={{
+                background:
                   activeTools === "Redux" && "rgba(255, 255, 255, 0.25)",
               }}
               className="filter-btn"

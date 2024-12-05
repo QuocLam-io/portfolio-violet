@@ -4,6 +4,7 @@
     "description": "Daily Gratitude Journal",
     "img": "imgs/cards/card-positive-place.svg",
     "tools": [
+      "Javascript",
       "React",
       "NodeJS",
       "Express",
@@ -34,7 +35,16 @@
     "title": "Macro Daddy (2022)",
     "description": "Macro-Nutrient Tracking App",
     "img": "imgs/cards/card-macro-daddy.svg",
-    "tools": ["React", "NodeJS", "HTML", "CSS", "Sass", "Redux", "JS"],
+    "tools": [
+      "Javascript",
+      "React",
+      "NodeJS",
+      "HTML",
+      "CSS",
+      "Sass",
+      "Redux",
+      "JS"
+    ],
     "icons": [
       "imgs/icons/react.svg",
       "imgs/icons/redux.svg",
@@ -50,7 +60,16 @@
     "title": "Astro Boy (2022)",
     "description": "Word Guesing Game",
     "img": "imgs/cards/card-astro-boi.svg",
-    "tools": ["HTML", "CSS", "JS", "NodeJS", "Sass", "React", "Typescript"],
+    "tools": [
+      "Javascript",
+      "HTML",
+      "CSS",
+      "JS",
+      "NodeJS",
+      "Sass",
+      "React",
+      "Typescript"
+    ],
     "icons": [
       "imgs/icons/ts.svg",
       "imgs/icons/react.svg",
@@ -66,7 +85,16 @@
     "title": "Greasy Spoon (2022)",
     "description": "Restaurant Tracking App",
     "img": "imgs/cards/card-greasy-spoon.svg",
-    "tools": ["React", "NodeJS", "Express", "MongoDB", "HTML", "CSS", "JS"],
+    "tools": [
+      "Javascript",
+      "React",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
     "icons": [
       "imgs/icons/mongodb.svg",
       "imgs/icons/express.svg",
@@ -84,7 +112,16 @@
     "title": "Portfolio (2022)",
     "description": "Collection of Projects",
     "img": "imgs/cards/card-portfolio.svg",
-    "tools": ["React", "NodeJS", "Sass", "Framer Motion", "HTML", "CSS", "JS"],
+    "tools": [
+      "Javascript",
+      "React",
+      "NodeJS",
+      "Sass",
+      "Framer Motion",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
     "icons": [
       "imgs/icons/sass.svg",
       "imgs/icons/react.svg",
